@@ -14,15 +14,15 @@ namespace FibonacciChallenge
             int entry = int.Parse(Console.ReadLine());
 
             int firstNumber = 0;
-            Console.Write(firstNumber);
+            Console.Write("{0},", firstNumber);
             int secondNumber = 1;
-            Console.Write(secondNumber);
+            Console.Write("{0},", secondNumber);
             int sum = 0;
 
             while(sum <= entry)
             {
                 sum = firstNumber + secondNumber;
-                Console.Write(sum);
+                Console.Write("{0},", sum);
                 firstNumber = secondNumber;
                 secondNumber = sum;
 
